@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        maven { url = 'https://artifactory.turkcell.com.tr/artifactory/gradle-plugins-cache/' }
+        maven { url = 'https://artifactory.turkcell.com.tr/artifactory/virtual-maven' }
+        gradlePluginPortal()
+    }
+}
+
+
+rootProject.name = 'spring-boot-redisson-cache-test'
+
